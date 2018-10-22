@@ -1,0 +1,30 @@
+{
+  "Damage": "43",
+  "Bullets": "1",
+  "CycleTime": "0.1",
+  "CycleTime2": null,
+  "BulletSpread": "0.04",
+  "PunchAngleX": "1.5",
+  "PunchAngleY": "0.4",
+  "PunchOffset": "0",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_MP44",
+  "viewmodel": "models/weapons/v_stg44.mdl",
+  "playermodel": "models/weapons/w_stg44.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "30",
+  "NumClips": "6",
+  "primary_ammo": "mp40",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": "muzzle_smg1",
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "MP44.Shoot"
+  }
+}

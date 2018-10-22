@@ -1,0 +1,37 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_red_class3"	
+	"playermodel"			"models/player/Axis/karl.mdl"
+	"selectcmd"			"cls_red_class3"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"RED"
+
+	// Weapon Info
+	"primaryweapon"		"mp44"
+	"secondaryweapon"	"luger"
+	"meleeweapon"		"trenchknife"
+	"special"		"heal"
+
+	"grenadetype"		"healthkit"
+	"numgrens"		"5"
+
+	"limitcvar"		"mp_limit_red_class3"
+
+	"classimage"		"cls_red_class3_active"
+	"classimagebg"		"cls_red_class3_active_bg"
+
+	"armor"			"25"
+
+	// Movement
+	"RunSpeed"		"190"
+	"SprintSpeed"		"270"
+	"ProneSpeed"		"50"
+
+	"HasHelmet"		"1"
+
+	"IsGraff"		"1"
+}

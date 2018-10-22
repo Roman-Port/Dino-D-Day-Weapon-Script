@@ -1,0 +1,30 @@
+{
+  "Damage": "47",
+  "Bullets": "1",
+  "CycleTime": "0.1",
+  "CycleTime2": "0.2",
+  "BulletSpread": "0.03",
+  "PunchAngleX": "2",
+  "PunchAngleY": "0.5",
+  "PunchOffset": "0",
+  "CanSelectROF": "true",
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_MP5",
+  "viewmodel": "models/weapons/v_bar.mdl",
+  "playermodel": "models/weapons/w_bar.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "20",
+  "NumClips": "8",
+  "primary_ammo": "bar",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": "muzzle_garand",
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "BAR.Shoot"
+  }
+}

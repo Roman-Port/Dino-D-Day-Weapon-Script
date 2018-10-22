@@ -1,0 +1,34 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_blue_class4"	
+	"playermodel"			"models/player/Allies/irina.mdl"
+	"selectcmd"			"cls_blue_class4"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"BLUE"
+
+	// Weapon Info
+	"primaryweapon"		"mosin"
+	"secondaryweapon"	"tokarev"
+	"meleeweapon"		"fistsregular"
+
+	"grenadetype"		"jackrabbit"
+	"numgrens"		"1"
+
+	"limitcvar"		"mp_limit_blue_class4"
+
+	"classimage"		"cls_blue_class4_active"
+	"classimagebg"		"cls_blue_class4_active_bg"
+
+	"armor"			"25"
+
+	// Movement
+	"RunSpeed"		"190"
+	"SprintSpeed"		"270"
+	"ProneSpeed"		"50"
+
+	"IsIlona"		"1"
+}

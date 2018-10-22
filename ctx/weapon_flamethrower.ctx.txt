@@ -1,0 +1,90 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"		"170"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.225"		// time between shoots
+	"BulletSpread"			"0.01"		//How accurate is the gun
+	"PunchAngleX"			"3"		//How far should the view be punched when firing
+	"PunchOffset"			"2"		//How far off will the view be after the punch
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#DDD_Weapon_Flamethrower"
+	"viewmodel"		"models/weapons/v_m1flamethrower.mdl"
+	"playermodel"		"models/weapons/w_m1flamethrower.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"1"
+	"bucket_position"		"0"
+
+	"clip_size"			"150"
+	"NumClips"			"1"
+	
+	"primary_ammo"			"flame"
+	"secondary_ammo"		"None"
+
+	"weight"			"25"
+	"item_flags"			"0"
+
+	"MuzzleFlashEffect"		"muzzle_garand"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_FlameThrower.Fire"			// Starting fire, 3.5 seconds long
+		"special1"		"Weapon_FlameThrower.FireLoop"			// Looping fire sound, ramps up 3.5 seconds after start
+		"special2"		"Weapon_FlameThrower.PilotLoop"			// Looping pilot light sound, always on while weapon is deployed
+		"special3"		"Weapon_FlameThrower.WindDown"			// End of fire sound
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"a"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"a"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"r"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"0"
+				"y"		"55"
+				"width"		"23"
+				"height"	"23"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"			"0"
+				"y"			"55"
+				"width"		"23"
+				"height"	"23"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

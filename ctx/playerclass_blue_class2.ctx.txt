@@ -1,0 +1,37 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_blue_class2"	
+	"playermodel"			"models/player/Allies/joe.mdl"
+	"selectcmd"			"cls_blue_class2"
+
+	"arms"				"nigel"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"BLUE"
+
+	// Weapon Info
+	"primaryweapon"		"thompson"
+	"secondaryweapon"	"pistol"
+	"meleeweapon"		"fistsregular"
+	"special"		"artillery"
+
+	"grenadetype"		"sticky"
+	"numgrens"		"3"
+
+	"limitcvar"		"mp_limit_blue_class2"
+
+	"classimage"		"cls_blue_class2_active"
+	"classimagebg"		"cls_blue_class2_active_bg"
+
+	"armor"			"25"
+
+	// Movement
+	"RunSpeed"		"220"
+	"SprintSpeed"		"300"
+	"ProneSpeed"		"70"
+
+	"IsJoe"			"1"
+}

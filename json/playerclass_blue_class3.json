@@ -1,0 +1,18 @@
+{
+  "printname": "#class_blue_class3",
+  "playermodel": "models/player/Allies/nigel.mdl",
+  "selectcmd": "cls_blue_class3",
+  "team": "BLUE",
+  "primaryweapon": "shotgun",
+  "secondaryweapon": "piat",
+  "meleeweapon": "fistsregular",
+  "grenadetype": "smokegrenade",
+  "numgrens": "2",
+  "limitcvar": "mp_limit_blue_class3",
+  "classimage": "cls_blue_class3_active",
+  "classimagebg": "cls_blue_class3_active_bg",
+  "armor": "50",
+  "RunSpeed": "190",
+  "SprintSpeed": "270",
+  "ThirdPersonView": null
+}

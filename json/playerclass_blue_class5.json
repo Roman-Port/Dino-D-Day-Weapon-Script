@@ -1,0 +1,18 @@
+{
+  "printname": "#class_blue_class5",
+  "playermodel": "models/player/Allies/camille.mdl",
+  "selectcmd": "cls_blue_class5",
+  "team": "BLUE",
+  "primaryweapon": "sten",
+  "secondaryweapon": "p38",
+  "meleeweapon": "fistsregular",
+  "grenadetype": "healthkit",
+  "numgrens": "5",
+  "limitcvar": "mp_limit_blue_class5",
+  "classimage": "cls_blue_class5_active",
+  "classimagebg": "cls_blue_class5_active_bg",
+  "armor": "25",
+  "RunSpeed": "190",
+  "SprintSpeed": "270",
+  "ThirdPersonView": null
+}

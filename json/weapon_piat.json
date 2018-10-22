@@ -1,0 +1,30 @@
+{
+  "Damage": "200",
+  "Bullets": "1",
+  "CycleTime": "0.5",
+  "CycleTime2": null,
+  "BulletSpread": "0.05",
+  "PunchAngleX": "10",
+  "PunchAngleY": "5",
+  "PunchOffset": "5",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#DDD_Weapon_Garand",
+  "viewmodel": "models/weapons/v_piat.mdl",
+  "playermodel": "models/weapons/w_piat.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "1",
+  "bucket_position": "0",
+  "clip_size": "1",
+  "NumClips": "5",
+  "primary_ammo": "piat",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Piat.Shoot"
+  }
+}

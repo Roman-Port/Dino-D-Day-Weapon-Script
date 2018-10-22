@@ -1,0 +1,30 @@
+{
+  "Damage": "70",
+  "Bullets": "1",
+  "CycleTime": "0.18",
+  "CycleTime2": null,
+  "BulletSpread": "0.02",
+  "PunchAngleX": "2.5",
+  "PunchAngleY": null,
+  "PunchOffset": "1.5",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#DDD_Weapon_Garand",
+  "viewmodel": "models/weapons/v_m1carbine.mdl",
+  "playermodel": "models/weapons/w_m1carbine.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "15",
+  "NumClips": "7",
+  "primary_ammo": "carbine",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": "muzzle_pistol",
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "M1Carbine.Shoot"
+  }
+}

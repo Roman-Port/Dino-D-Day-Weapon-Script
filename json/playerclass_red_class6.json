@@ -1,0 +1,18 @@
+{
+  "printname": "#class_red_class6",
+  "playermodel": "models/player/Axis/dilophosaurus.mdl",
+  "selectcmd": "cls_red_class6",
+  "team": "RED",
+  "primaryweapon": "dilophosaurus",
+  "secondaryweapon": "none",
+  "meleeweapon": "none",
+  "grenadetype": "none",
+  "numgrens": "0",
+  "limitcvar": "mp_limit_red_class6",
+  "classimage": "cls_red_class6_active",
+  "classimagebg": "cls_red_class6_active_bg",
+  "armor": "150",
+  "RunSpeed": "260",
+  "SprintSpeed": "360",
+  "ThirdPersonView": "1"
+}

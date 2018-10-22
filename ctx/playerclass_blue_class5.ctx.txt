@@ -1,0 +1,35 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_blue_class5"	
+	"playermodel"			"models/player/Allies/camille.mdl"
+	"selectcmd"			"cls_blue_class5"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"BLUE"
+
+	// Weapon Info
+	"primaryweapon"		"sten"
+	"secondaryweapon"	"p38"
+	"meleeweapon"		"fistsregular"
+	"special"		"heal"
+
+	"grenadetype"		"healthkit"
+	"numgrens"		"5"
+
+	"limitcvar"		"mp_limit_blue_class5"
+
+	"classimage"		"cls_blue_class5_active"
+	"classimagebg"		"cls_blue_class5_active_bg"
+
+	"armor"			"25"
+
+	// Movement
+	"RunSpeed"		"190"
+	"SprintSpeed"		"270"
+	"ProneSpeed"		"50"
+
+	"IsCamille"		"1"
+}

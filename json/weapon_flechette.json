@@ -1,0 +1,30 @@
+{
+  "Damage": "17",
+  "Bullets": "20",
+  "CycleTime": "0.15",
+  "CycleTime2": null,
+  "BulletSpread": "0.01",
+  "PunchAngleX": "3",
+  "PunchAngleY": "2",
+  "PunchOffset": "2",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_Shotgun",
+  "viewmodel": "models/weapons/v_flechettegun.mdl",
+  "playermodel": "models/weapons/w_flechettegun.mdl",
+  "PlayerAnimationExtension": "m3s90",
+  "bucket": "1",
+  "bucket_position": "0",
+  "clip_size": "1",
+  "NumClips": "8",
+  "primary_ammo": "flechette",
+  "secondary_ammo": "None",
+  "weight": "20",
+  "item_flags": "0",
+  "MuzzleFlashEffect": "muzzle_flechette",
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Flechette.Shoot"
+  }
+}

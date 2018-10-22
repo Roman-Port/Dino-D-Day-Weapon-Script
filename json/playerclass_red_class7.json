@@ -1,0 +1,18 @@
+{
+  "printname": "#class_red_class7",
+  "playermodel": "models/player/Axis/stygimoloch.mdl",
+  "selectcmd": "cls_red_class7",
+  "team": "RED",
+  "primaryweapon": "stygimoloch",
+  "secondaryweapon": "none",
+  "meleeweapon": "none",
+  "grenadetype": "none",
+  "numgrens": "0",
+  "limitcvar": "mp_limit_red_class7",
+  "classimage": "cls_red_class7_active",
+  "classimagebg": "cls_red_class7_active_bg",
+  "armor": "75",
+  "RunSpeed": "190",
+  "SprintSpeed": "280",
+  "ThirdPersonView": "1"
+}

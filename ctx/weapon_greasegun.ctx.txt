@@ -1,0 +1,91 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"43"		// damage per bullet
+	"Bullets"			"1"		// bullets per shot
+	"CycleTime"			"0.11"		// time between shots
+	"BulletSpread"			"0.06"		//How accurate is the gun
+	"PunchAngleX"			"1"		//How far should the view be punched in the X dimension when firing
+	"PunchAngleY"			"0.3"		//How far should the view be punched in the Y dimension
+	"PunchOffset"			"0"		//How far off will the view be after the punch
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SDK_Weapon_MP5"
+	"viewmodel"			"models/weapons/v_m3greasegun.mdl"
+	"playermodel"			"models/weapons/w_m3greasegun.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"0"
+	"bucket_position"		"0"
+
+	"clip_size"			"30"
+	"NumClips"			"6"
+
+	
+	"primary_ammo"			"smg"
+	"secondary_ammo"		"None"
+
+	"weight"			"25"
+	"item_flags"			"0"
+
+	"MuzzleFlashEffect"		"muzzle_pistol"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"			"GreaseGun.Shoot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"a"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"a"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"r"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"0"
+				"y"		"55"
+				"width"		"23"
+				"height"	"23"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"			"0"
+				"y"			"55"
+				"width"		"23"
+				"height"	"23"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

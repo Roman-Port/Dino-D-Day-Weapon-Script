@@ -1,0 +1,34 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_red_class11"	
+	"playermodel"			"models/player/Axis/microraptor.mdl"
+	"selectcmd"			"cls_red_class11"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"RED"
+
+	// Weapon Info
+	"primaryweapon"		"microraptor"
+	"secondaryweapon"	"none"
+	"meleeweapon"		"none"
+
+	"grenadetype"		"none"
+	"numgrens"		"0"
+
+	"limitcvar"		"mp_limit_red_class11"
+
+	"classimage"		"cls_red_class11_active"
+	"classimagebg"		"cls_red_class11_active_bg"
+
+	"armor"			"25"
+
+	// Movement
+	"RunSpeed"		"240"
+	"SprintSpeed"		"320"
+	"ProneSpeed"		"50"
+
+	"IsMicroraptor"		"1"
+}

@@ -1,0 +1,18 @@
+{
+  "printname": "#class_red_class4",
+  "playermodel": "models/player/Axis/dromaeo.mdl",
+  "selectcmd": "cls_red_class4",
+  "team": "RED",
+  "primaryweapon": "claws",
+  "secondaryweapon": "none",
+  "meleeweapon": "none",
+  "grenadetype": "none",
+  "numgrens": "0",
+  "limitcvar": "mp_limit_red_class4",
+  "classimage": "cls_red_class4_active",
+  "classimagebg": "cls_red_class4_active_bg",
+  "armor": "25",
+  "RunSpeed": "300",
+  "SprintSpeed": "400",
+  "ThirdPersonView": null
+}

@@ -1,0 +1,95 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"17"
+	"Bullets"			"20"
+	"CycleTime"			"0.15"
+	"BulletSpread"			"0.01"		//How accurate is the gun
+	"PunchAngleX"			"3"		//How far should the view be punched in the X dimension when firing
+	"PunchAngleY"			"2"		//How far should the view be punched in the Y dimension
+	"PunchOffset"			"2"		//How far off will the view be after the punch
+
+	"ShouldRicochet"		"1"
+
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SDK_Weapon_Shotgun"
+	"viewmodel"			"models/weapons/v_flechettegun.mdl"
+	"playermodel"			"models/weapons/w_flechettegun.mdl"
+	"PlayerAnimationExtension"	"m3s90"
+	
+	"bucket"			"1"
+	"bucket_position"		"0"
+
+	"clip_size"			"1"
+	"NumClips"			"8"
+
+	
+	"primary_ammo"			"flechette"
+	"secondary_ammo"		"None"
+
+	"weight"			"20"
+	"item_flags"			"0"
+
+	"MuzzleFlashEffect"		"muzzle_flechette"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"			"Flechette.Shoot"
+		special3			Default.Zoom
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"b"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"b"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"s"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"67"
+				"y"		"22"
+				"width"		"62"
+				"height"	"60"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"67"
+				"y"		"22"
+				"width"		"62"
+				"height"	"60"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-13 -3 -13"
+			Maxs	"26 10 -3"
+		}
+		World
+		{
+			Mins	"-9 -8 -5"
+			Maxs	"28 9 9"
+		}
+	}
+}

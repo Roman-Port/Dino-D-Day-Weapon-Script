@@ -1,0 +1,18 @@
+{
+  "printname": "#class_red_class9",
+  "playermodel": "models/player/Axis/trex_mp.mdl",
+  "selectcmd": "cls_red_class9",
+  "team": "RED",
+  "primaryweapon": "trex",
+  "secondaryweapon": "none",
+  "meleeweapon": "none",
+  "grenadetype": "none",
+  "numgrens": "0",
+  "limitcvar": "mp_limit_red_class9",
+  "classimage": "cls_red_class9_active",
+  "classimagebg": "cls_red_class9_active_bg",
+  "armor": "0",
+  "RunSpeed": "140",
+  "SprintSpeed": "200",
+  "ThirdPersonView": "1"
+}

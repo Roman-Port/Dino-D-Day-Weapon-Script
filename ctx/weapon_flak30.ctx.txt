@@ -1,0 +1,99 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"150"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.62"		// time between shoots
+	"BulletSpread"			"0.0"		//How accurate is the gun
+	//"PunchAngleX"			"10"		//How far should the view be punched in the X dimension when firing
+	//"PunchAngleY"			"5"		//How far should the view be punched in the Y dimension
+	//"PunchOffset"			"5"		//How far off will the view be after the punch
+
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#DDD_Weapon_Garand"
+	"viewmodel"			"models/weapons/v_mg42.mdl"
+	//"playermodel"			"models/weapons/w_rocket_launcher.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"1"
+	"bucket_position"		"0"
+
+	"clip_size"			"50"
+	"NumClips"			"1"
+
+	
+	"primary_ammo"			"flak30"
+	"secondary_ammo"		"None"
+
+	"TracerEffect"			"flak30_tracer01"
+
+	"weight"			"25"
+	"item_flags"			"0"
+
+	"ExplosionEffect"		"ExplosionCore_wall"
+	"ExplosionPlayerEffect"		"ExplosionCore_MidAir"
+	"ExplosionWaterEffect"		"ExplosionCore_MidAir_underwater"
+
+	"ExplosionSound"	"BaseExplosionEffect.Sound"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"melee_hit"		"Desma.HitBody"
+		"melee_hit_world"	"Desma.HitWorld"
+		"special1"		"Fists.Swing"	// For when he tries a melee swing.
+		"single_shot"	"Flak30.Shoot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"a"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"a"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"r"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"24"
+				"y"		"55"
+				"width"		"23"
+				"height"	"23"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"24"
+				"y"		"55"
+				"width"		"23"
+				"height"	"23"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

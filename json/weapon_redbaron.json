@@ -1,0 +1,30 @@
+{
+  "Damage": "150",
+  "Bullets": null,
+  "CycleTime": "8.0",
+  "CycleTime2": null,
+  "BulletSpread": "0.15",
+  "PunchAngleX": null,
+  "PunchAngleY": null,
+  "PunchOffset": null,
+  "CanSelectROF": null,
+  "BuiltRightHanded": null,
+  "printname": "#SDK_Weapon_Crowbar",
+  "viewmodel": "models/weapons/v_mg34.mdl",
+  "playermodel": "models/npcs/dinosaurs/redBaron/redbaron_cannon.mdl",
+  "PlayerAnimationExtension": "crowbar",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "-1",
+  "NumClips": null,
+  "primary_ammo": "None",
+  "secondary_ammo": "None",
+  "weight": "0",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Claws.Single"
+  }
+}

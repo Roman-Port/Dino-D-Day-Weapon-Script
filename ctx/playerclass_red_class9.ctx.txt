@@ -1,0 +1,35 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_red_class9"	
+	"playermodel"			"models/player/Axis/trex_mp.mdl"
+	"selectcmd"			"cls_red_class9"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"RED"
+
+	// Weapon Info
+	"primaryweapon"		"trex"
+	"secondaryweapon"	"none"
+	"meleeweapon"		"none"
+
+	"grenadetype"		"none"
+	"numgrens"		"0"
+
+	"limitcvar"		"mp_limit_red_class9"
+
+	"classimage"		"cls_red_class9_active"
+	"classimagebg"		"cls_red_class9_active_bg"
+
+	"armor"			"0"
+
+	// Movement
+	"RunSpeed"		"140"
+	"SprintSpeed"		"200"
+	"ProneSpeed"		"50"
+
+	"ThirdPersonView"	"1"
+	"IsTrex"		"1"
+}

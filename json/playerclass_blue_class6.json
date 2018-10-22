@@ -1,0 +1,18 @@
+{
+  "printname": "#class_blue_class6",
+  "playermodel": "models/player/Allies/jakob.mdl",
+  "selectcmd": "cls_blue_class6",
+  "team": "BLUE",
+  "primaryweapon": "bar",
+  "secondaryweapon": "flechette",
+  "meleeweapon": "fistsregular",
+  "grenadetype": "grenade",
+  "numgrens": "3",
+  "limitcvar": "mp_limit_blue_class6",
+  "classimage": "cls_blue_class6_active",
+  "classimagebg": "cls_blue_class6_active_bg",
+  "armor": "75",
+  "RunSpeed": "180",
+  "SprintSpeed": "260",
+  "ThirdPersonView": null
+}

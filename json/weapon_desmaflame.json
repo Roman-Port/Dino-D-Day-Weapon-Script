@@ -1,0 +1,30 @@
+{
+  "Damage": "150",
+  "Bullets": "1",
+  "CycleTime": "0.62",
+  "CycleTime2": null,
+  "BulletSpread": "0.0",
+  "PunchAngleX": null,
+  "PunchAngleY": null,
+  "PunchOffset": null,
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#DDD_Weapon_Garand",
+  "viewmodel": "models/weapons/v_mg42.mdl",
+  "playermodel": null,
+  "PlayerAnimationExtension": null,
+  "bucket": "1",
+  "bucket_position": "0",
+  "clip_size": "999",
+  "NumClips": "1",
+  "primary_ammo": "flame",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Weapon_FlameThrower.Fire"
+  }
+}

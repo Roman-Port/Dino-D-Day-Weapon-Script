@@ -1,0 +1,30 @@
+{
+  "Damage": "40",
+  "Bullets": "1",
+  "CycleTime": "0.08",
+  "CycleTime2": null,
+  "BulletSpread": "0.04",
+  "PunchAngleX": "1",
+  "PunchAngleY": "0.3",
+  "PunchOffset": "0",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_MP5",
+  "viewmodel": "models/weapons/v_mg34.mdl",
+  "playermodel": "models/weapons/w_mg34.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "250",
+  "NumClips": "1",
+  "primary_ammo": "mg34",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "MG34.Shoot"
+  }
+}

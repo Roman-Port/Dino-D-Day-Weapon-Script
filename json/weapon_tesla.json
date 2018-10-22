@@ -1,0 +1,30 @@
+{
+  "Damage": "15",
+  "Bullets": null,
+  "CycleTime": "0.07",
+  "CycleTime2": null,
+  "BulletSpread": null,
+  "PunchAngleX": null,
+  "PunchAngleY": null,
+  "PunchOffset": null,
+  "CanSelectROF": null,
+  "BuiltRightHanded": null,
+  "printname": "#SDK_Weapon_Crowbar",
+  "viewmodel": "models/weapons/v_30cal.mdl",
+  "playermodel": "models/npcs/animals/vengeance_goat_teslacoil.mdl",
+  "PlayerAnimationExtension": "crowbar",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "500",
+  "NumClips": "1",
+  "primary_ammo": "mg42",
+  "secondary_ammo": "None",
+  "weight": "0",
+  "item_flags": "0",
+  "MuzzleFlashEffect": "muzzle_smg1",
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Claws.Single"
+  }
+}

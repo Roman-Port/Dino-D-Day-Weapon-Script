@@ -1,0 +1,30 @@
+{
+  "Damage": "170",
+  "Bullets": "1",
+  "CycleTime": "0.225",
+  "CycleTime2": null,
+  "BulletSpread": "0.01",
+  "PunchAngleX": "3",
+  "PunchAngleY": null,
+  "PunchOffset": "2",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#DDD_Weapon_Flamethrower",
+  "viewmodel": "models/weapons/v_m1flamethrower.mdl",
+  "playermodel": "models/weapons/w_m1flamethrower.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "1",
+  "bucket_position": "0",
+  "clip_size": "150",
+  "NumClips": "1",
+  "primary_ammo": "flame",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": "muzzle_garand",
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Weapon_FlameThrower.Fire"
+  }
+}

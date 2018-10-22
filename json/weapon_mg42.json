@@ -1,0 +1,30 @@
+{
+  "Damage": "80",
+  "Bullets": "1",
+  "CycleTime": "0.05",
+  "CycleTime2": null,
+  "BulletSpread": null,
+  "PunchAngleX": "0",
+  "PunchAngleY": "0",
+  "PunchOffset": "0",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_MP5",
+  "viewmodel": "models/weapons/v_mg42.mdl",
+  "playermodel": null,
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "4",
+  "bucket_position": "0",
+  "clip_size": "250",
+  "NumClips": "2",
+  "primary_ammo": "mg42",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "MG42.Shoot"
+  }
+}

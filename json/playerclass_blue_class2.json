@@ -1,0 +1,18 @@
+{
+  "printname": "#class_blue_class2",
+  "playermodel": "models/player/Allies/joe.mdl",
+  "selectcmd": "cls_blue_class2",
+  "team": "BLUE",
+  "primaryweapon": "thompson",
+  "secondaryweapon": "pistol",
+  "meleeweapon": "fistsregular",
+  "grenadetype": "sticky",
+  "numgrens": "3",
+  "limitcvar": "mp_limit_blue_class2",
+  "classimage": "cls_blue_class2_active",
+  "classimagebg": "cls_blue_class2_active_bg",
+  "armor": "25",
+  "RunSpeed": "220",
+  "SprintSpeed": "300",
+  "ThirdPersonView": null
+}

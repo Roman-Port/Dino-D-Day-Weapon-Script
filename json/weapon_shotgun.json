@@ -1,0 +1,30 @@
+{
+  "Damage": "20",
+  "Bullets": "9",
+  "CycleTime": "0.85",
+  "CycleTime2": null,
+  "BulletSpread": "0.03",
+  "PunchAngleX": "3",
+  "PunchAngleY": "2",
+  "PunchOffset": "2",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_Shotgun",
+  "viewmodel": "models/weapons/v_m97.mdl",
+  "playermodel": "models/weapons/w_m97.mdl",
+  "PlayerAnimationExtension": "m3s90",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "6",
+  "NumClips": "8",
+  "primary_ammo": "shotgun",
+  "secondary_ammo": "None",
+  "weight": "20",
+  "item_flags": "0",
+  "MuzzleFlashEffect": "muzzle_shotgun",
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "M97.Shoot"
+  }
+}

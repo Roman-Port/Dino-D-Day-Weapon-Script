@@ -1,0 +1,36 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_red_class1"	
+	"playermodel"			"models/player/Axis/heinrich.mdl"
+	"selectcmd"			"cls_red_class1"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"RED"
+
+	// Weapon Info
+	"primaryweapon"		"k98"
+	"secondaryweapon"	"mp40"
+	"meleeweapon"		"trenchknife"
+
+	"grenadetype"		"stickgrenade"
+	"numgrens"		"3"
+	
+	"limitcvar"		"mp_limit_red_class1"
+
+	"classimage"		"cls_red_class1_active"
+	"classimagebg"		"cls_red_class1_active_bg"
+
+	"armor"			"50"
+
+	// Movement
+	"RunSpeed"		"190"
+	"SprintSpeed"		"270"
+	"ProneSpeed"		"70"
+
+	"HasHelmet"		"1"
+
+	"IsStreicher"		"1"
+}

@@ -1,0 +1,37 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_blue_class3"	
+	"playermodel"			"models/player/Allies/nigel.mdl"
+	"selectcmd"			"cls_blue_class3"
+
+	"arms"				"nigel"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"BLUE"
+
+	// Weapon Info
+	"primaryweapon"		"shotgun"
+	"secondaryweapon"	"piat"
+	"meleeweapon"		"fistsregular"
+	"special"		"poison"
+
+	"grenadetype"		"smokegrenade"
+	"numgrens"		"2"
+
+	"limitcvar"		"mp_limit_blue_class3"
+
+	"classimage"		"cls_blue_class3_active"
+	"classimagebg"		"cls_blue_class3_active_bg"
+
+	"armor"			"50"
+
+	// Movement
+	"RunSpeed"		"190"
+	"SprintSpeed"		"270"
+	"ProneSpeed"		"50"
+
+	"IsNigel"		"1"
+}

@@ -1,0 +1,30 @@
+{
+  "Damage": "300",
+  "Bullets": null,
+  "CycleTime": "0.4",
+  "CycleTime2": null,
+  "BulletSpread": null,
+  "PunchAngleX": null,
+  "PunchAngleY": null,
+  "PunchOffset": null,
+  "CanSelectROF": null,
+  "BuiltRightHanded": null,
+  "printname": "#SDK_Weapon_Crowbar",
+  "viewmodel": "models/weapons/v_fists.mdl",
+  "playermodel": null,
+  "PlayerAnimationExtension": "crowbar",
+  "bucket": "4",
+  "bucket_position": "0",
+  "clip_size": "-1",
+  "NumClips": null,
+  "primary_ammo": "None",
+  "secondary_ammo": "None",
+  "weight": "0",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Fists.Swing"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Damage": "145",
+  "Bullets": "1",
+  "CycleTime": "0.9",
+  "CycleTime2": null,
+  "BulletSpread": "0.01",
+  "PunchAngleX": "3",
+  "PunchAngleY": "0.5",
+  "PunchOffset": "1",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#DDD_Weapon_Garand",
+  "viewmodel": "models/weapons/v_k98.mdl",
+  "playermodel": "models/weapons/w_k98_unscoped.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "5",
+  "NumClips": "12",
+  "primary_ammo": "k98",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "K98.Shoot"
+  }
+}

@@ -1,0 +1,35 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_red_class10"	
+	"playermodel"			"models/player/Axis/compsognathus.mdl"
+	"selectcmd"			"cls_red_class10"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"RED"
+
+	// Weapon Info
+	"primaryweapon"		"compy"
+	"secondaryweapon"	"none"
+	"meleeweapon"		"none"
+
+	"grenadetype"		"none"
+	"numgrens"		"0"
+
+	"limitcvar"		"mp_limit_red_class10"
+
+	"classimage"		"cls_red_class10_active"
+	"classimagebg"		"cls_red_class10_active_bg"
+
+	"armor"			"0"
+
+	// Movement
+	"RunSpeed"		"255"
+	"SprintSpeed"		"335"
+	"ProneSpeed"		"50"
+
+	"IsCompy"		"1"
+	"ThirdPersonView"	"1"
+}

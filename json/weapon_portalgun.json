@@ -1,0 +1,30 @@
+{
+  "Damage": null,
+  "Bullets": null,
+  "CycleTime": null,
+  "CycleTime2": null,
+  "BulletSpread": null,
+  "PunchAngleX": null,
+  "PunchAngleY": null,
+  "PunchOffset": null,
+  "CanSelectROF": null,
+  "BuiltRightHanded": null,
+  "printname": "#Portal_Portalgun",
+  "viewmodel": "models/weapons/v_portalgun.mdl",
+  "playermodel": "models/weapons/w_portalgun.mdl",
+  "PlayerAnimationExtension": null,
+  "bucket": "0",
+  "bucket_position": "2",
+  "clip_size": "1",
+  "NumClips": null,
+  "primary_ammo": "None",
+  "secondary_ammo": "None",
+  "weight": "4",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Weapon_Portalgun.fire_blue"
+  }
+}

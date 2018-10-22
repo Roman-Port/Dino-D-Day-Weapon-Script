@@ -1,0 +1,30 @@
+{
+  "Damage": "150",
+  "Bullets": null,
+  "CycleTime": null,
+  "CycleTime2": null,
+  "BulletSpread": null,
+  "PunchAngleX": null,
+  "PunchAngleY": null,
+  "PunchOffset": null,
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_Healthkit",
+  "viewmodel": "models/weapons/v_medkit.mdl",
+  "playermodel": "models/weapons/w_medkit.mdl",
+  "PlayerAnimationExtension": "gren",
+  "bucket": "3",
+  "bucket_position": "0",
+  "clip_size": "-1",
+  "NumClips": "1",
+  "primary_ammo": "healthkit",
+  "secondary_ammo": "None",
+  "weight": "1",
+  "item_flags": "18",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "common/null.wav"
+  }
+}

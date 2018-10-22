@@ -1,0 +1,18 @@
+{
+  "printname": "#class_red_class8",
+  "playermodel": "models/player/Axis/styracosaurus_mp.mdl",
+  "selectcmd": "cls_red_class8",
+  "team": "RED",
+  "primaryweapon": "styracosaur",
+  "secondaryweapon": "none",
+  "meleeweapon": "none",
+  "grenadetype": "none",
+  "numgrens": "0",
+  "limitcvar": "mp_limit_red_class8",
+  "classimage": "cls_red_class8_active",
+  "classimagebg": "cls_red_class8_active_bg",
+  "armor": "150",
+  "RunSpeed": "80",
+  "SprintSpeed": "80",
+  "ThirdPersonView": "1"
+}

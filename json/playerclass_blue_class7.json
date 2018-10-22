@@ -1,0 +1,18 @@
+{
+  "printname": "#class_blue_class7",
+  "playermodel": "models/player/Allies/trigger.mdl",
+  "selectcmd": "cls_blue_class7",
+  "team": "BLUE",
+  "primaryweapon": "trigger",
+  "secondaryweapon": "none",
+  "meleeweapon": "none",
+  "grenadetype": "none",
+  "numgrens": "0",
+  "limitcvar": "mp_limit_blue_class6",
+  "classimage": "cls_blue_class6_active",
+  "classimagebg": "cls_blue_class6_active_bg",
+  "armor": "75",
+  "RunSpeed": "190",
+  "SprintSpeed": "280",
+  "ThirdPersonView": "1"
+}

@@ -1,0 +1,30 @@
+{
+  "Damage": "40",
+  "Bullets": "1",
+  "CycleTime": "0.1",
+  "CycleTime2": null,
+  "BulletSpread": null,
+  "PunchAngleX": null,
+  "PunchAngleY": null,
+  "PunchOffset": null,
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_Pistol",
+  "viewmodel": "models/weapons/v_colt45_hardgrave.mdl",
+  "playermodel": "models/weapons/w_colt45.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "1",
+  "bucket_position": "0",
+  "clip_size": "8",
+  "NumClips": "1",
+  "primary_ammo": "pistol",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": null
+  }
+}

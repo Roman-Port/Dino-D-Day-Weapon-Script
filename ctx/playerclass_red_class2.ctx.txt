@@ -1,0 +1,37 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_red_class2"	
+	"playermodel"			"models/player/Axis/adolf.mdl"
+	"selectcmd"			"cls_red_class2"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"RED"
+
+	// Weapon Info
+	"primaryweapon"		"k98sniper"
+	"secondaryweapon"	"luger"
+	"meleeweapon"		"trenchknife"
+	"special"		"pterosaur"
+
+	"grenadetype"		"stickgrenade"
+	"numgrens"		"3"
+
+	"limitcvar"		"mp_limit_red_class2"
+
+	"classimage"		"cls_red_class2_active"
+	"classimagebg"		"cls_red_class2_active_bg"
+
+	"armor"			"25"
+
+	// Movement
+	"RunSpeed"		"190"
+	"SprintSpeed"		"270"
+	"ProneSpeed"		"50"
+
+	"HasHelmet"		"1"
+
+	"IsHissmann"		"1"
+}

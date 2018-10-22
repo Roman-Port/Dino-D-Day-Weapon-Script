@@ -1,0 +1,35 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_red_class5"	
+	"playermodel"			"models/player/Axis/desmatosuchus.mdl"
+	"selectcmd"			"cls_red_class5"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"RED"
+
+	// Weapon Info
+	"primaryweapon"		"flak30"
+	"secondaryweapon"	"none"
+	"meleeweapon"		"none"
+
+	"grenadetype"		"none"
+	"numgrens"		"0"
+
+	"limitcvar"		"mp_limit_red_class5"
+
+	"classimage"		"cls_red_class5_active"
+	"classimagebg"		"cls_red_class5_active_bg"
+
+	"armor"			"200"
+
+	// Movement
+	"RunSpeed"		"140"
+	"SprintSpeed"		"200"
+	"ProneSpeed"		"60"
+
+	"ThirdPersonView"	"1"
+	"IsDesmatosuchus"	"1"
+}

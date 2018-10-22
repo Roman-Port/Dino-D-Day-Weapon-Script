@@ -1,0 +1,30 @@
+{
+  "Damage": "100",
+  "Bullets": "1",
+  "CycleTime": "0.5",
+  "CycleTime2": null,
+  "BulletSpread": "0.02",
+  "PunchAngleX": "2.5",
+  "PunchAngleY": null,
+  "PunchOffset": "0.75",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_Pistol",
+  "viewmodel": "models/weapons/v_nagant.mdl",
+  "playermodel": "models/weapons/w_nagant.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "1",
+  "bucket_position": "0",
+  "clip_size": "7",
+  "NumClips": "5",
+  "primary_ammo": "nagant",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": "muzzle_pistol",
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Nagant.Shoot"
+  }
+}

@@ -1,0 +1,35 @@
+PlayerClassDatafile
+{
+	// FilePLayerClassInfo_t members
+	"printname"			"#class_red_class6"	
+	"playermodel"			"models/player/Axis/dilophosaurus.mdl"
+	"selectcmd"			"cls_red_class6"
+
+	// CSDKPlayerClassInfo members
+
+	// What team has this class, for verification
+	"team"				"RED"
+
+	// Weapon Info
+	"primaryweapon"		"dilophosaurus"
+	"secondaryweapon"	"none"
+	"meleeweapon"		"none"
+
+	"grenadetype"		"none"
+	"numgrens"		"0"
+
+	"limitcvar"		"mp_limit_red_class6"
+
+	"classimage"		"cls_red_class6_active"
+	"classimagebg"		"cls_red_class6_active_bg"
+
+	"armor"			"150"
+
+	// Movement
+	"RunSpeed"		"260"
+	"SprintSpeed"		"360"
+	"ProneSpeed"		"50"
+
+	"ThirdPersonView"	"1"
+	"IsDilophosaurus"	"1"
+}

@@ -1,0 +1,18 @@
+{
+  "printname": "#class_blue_class1",
+  "playermodel": "models/player/hardgrave/hardgrave.mdl",
+  "selectcmd": "cls_blue_class1",
+  "team": "BLUE",
+  "primaryweapon": "garand",
+  "secondaryweapon": "pistol",
+  "meleeweapon": "fistsregular",
+  "grenadetype": "grenade",
+  "numgrens": "3",
+  "limitcvar": "mp_limit_blue_class1",
+  "classimage": "cls_blue_class1_active",
+  "classimagebg": "cls_blue_class1_active_bg",
+  "armor": "50",
+  "RunSpeed": "190",
+  "SprintSpeed": "270",
+  "ThirdPersonView": null
+}

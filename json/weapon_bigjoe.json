@@ -1,0 +1,30 @@
+{
+  "Damage": "40",
+  "Bullets": "1",
+  "CycleTime": "0.1",
+  "CycleTime2": null,
+  "BulletSpread": "0.03",
+  "PunchAngleX": "1",
+  "PunchAngleY": "1",
+  "PunchOffset": "1",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_Pistol",
+  "viewmodel": "models/weapons/v_m1garand.mdl",
+  "playermodel": "models/weapons/w_m1garand.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "1",
+  "bucket_position": "0",
+  "clip_size": "1",
+  "NumClips": "12",
+  "primary_ammo": "bigjoedarts",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "Weapon_DEagle.Single"
+  }
+}

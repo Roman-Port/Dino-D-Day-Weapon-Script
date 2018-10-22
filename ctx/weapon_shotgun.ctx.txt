@@ -1,0 +1,93 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"20"
+	"Bullets"			"9"
+	"CycleTime"			"0.85"
+	"BulletSpread"			"0.03"		//How accurate is the gun
+	"PunchAngleX"			"3"		//How far should the view be punched in the X dimension when firing
+	"PunchAngleY"			"2"		//How far should the view be punched in the Y dimension
+	"PunchOffset"			"2"		//How far off will the view be after the punch
+
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SDK_Weapon_Shotgun"
+	"viewmodel"			"models/weapons/v_m97.mdl"
+	"playermodel"			"models/weapons/w_m97.mdl"
+	"PlayerAnimationExtension"	"m3s90"
+	
+	"bucket"			"0"
+	"bucket_position"		"0"
+
+	"clip_size"			"6"
+	"NumClips"			"8"
+
+	
+	"primary_ammo"			"shotgun"
+	"secondary_ammo"		"None"
+
+	"weight"			"20"
+	"item_flags"			"0"
+
+	"MuzzleFlashEffect"		"muzzle_shotgun"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"			"M97.Shoot"
+		special3			Default.Zoom
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"b"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"b"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"s"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"20"
+				"y"		"0"
+				"width"		"48"
+				"height"	"48"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"20"
+				"y"		"0"
+				"width"		"48"
+				"height"	"48"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-13 -3 -13"
+			Maxs	"26 10 -3"
+		}
+		World
+		{
+			Mins	"-9 -8 -5"
+			Maxs	"28 9 9"
+		}
+	}
+}

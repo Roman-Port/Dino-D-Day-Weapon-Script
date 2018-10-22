@@ -1,0 +1,90 @@
+WeaponData
+{
+	// Weapon characteristics:
+	"Damage"			"55"		// damage per bullet
+	"Bullets"			"1"		// bullets per shoot
+	"CycleTime"			"0.1"		// time between shoots
+	"BulletSpread"			"0.05"		//How accurate is the gun
+	"PunchAngleX"			"1"		//How far should the view be punched when firing
+	"PunchOffset"			"0.5"		//How far off will the view be after the punch
+
+	"BuiltRightHanded"		"1"
+	
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"#SDK_Weapon_Pistol"
+	"viewmodel"			"models/weapons/v_colt45.mdl"
+	"playermodel"			"models/weapons/w_colt45.mdl"
+	"PlayerAnimationExtension"	"mp5"
+	
+	"bucket"			"1"
+	"bucket_position"		"0"
+
+	"clip_size"			"7"
+	"NumClips"			"5"
+
+	
+	"primary_ammo"			"pistol"
+	"secondary_ammo"		"None"
+
+	"weight"			"25"
+	"item_flags"			"0"
+
+	"MuzzleFlashEffect"		"muzzle_pistol"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		//"reload"			"Default.Reload"
+		//"empty"			"Default.ClipEmpty_Rifle"
+		"single_shot"			"Colt.Shoot"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+		"weapon"
+		{
+				"font"		"WeaponIcons"
+				"character"	"a"
+		}
+		"weapon_s"
+		{	
+				"font"		"WeaponIconsSelected"
+				"character"	"a"
+		}
+		"ammo"
+		{
+				"font"		"WeaponIcons"
+				"character"	"r"
+		}
+		"crosshair"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"0"
+				"y"		"0"
+				"width"		"19"
+				"height"	"19"
+		}
+		"autoaim"
+		{
+				"file"		"sprites/crosshairs_ddd"
+				"x"		"0"
+				"y"		"0"
+				"width"		"19"
+				"height"	"19"
+		}
+	}
+	ModelBounds
+	{
+		Viewmodel
+		{
+			Mins	"-10 -4 -13"
+			Maxs	"21 9 -1"
+		}
+		World
+		{
+			Mins	"-10 -7 -6"
+			Maxs	"22 8 9"
+		}
+	}
+}

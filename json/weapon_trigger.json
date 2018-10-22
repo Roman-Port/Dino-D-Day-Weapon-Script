@@ -1,0 +1,30 @@
+{
+  "Damage": "60",
+  "Bullets": "1",
+  "CycleTime": "0.12",
+  "CycleTime2": null,
+  "BulletSpread": "0.03",
+  "PunchAngleX": "1",
+  "PunchAngleY": "0.3",
+  "PunchOffset": "0",
+  "CanSelectROF": null,
+  "BuiltRightHanded": "1",
+  "printname": "#SDK_Weapon_MP5",
+  "viewmodel": "models/weapons/v_30cal.mdl",
+  "playermodel": "models/weapons/w_30cal.mdl",
+  "PlayerAnimationExtension": "mp5",
+  "bucket": "0",
+  "bucket_position": "0",
+  "clip_size": "250",
+  "NumClips": "1",
+  "primary_ammo": "30cal",
+  "secondary_ammo": "None",
+  "weight": "25",
+  "item_flags": "0",
+  "MuzzleFlashEffect": null,
+  "SoundData": {
+    "reload": null,
+    "empty": null,
+    "single_shot": "30cal.Shoot"
+  }
+}
